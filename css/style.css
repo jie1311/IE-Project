@@ -1,0 +1,240 @@
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    background-color: #f2f2f2;
+}
+
+.page-header {             
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url("../img/header.png");
+    border: 0;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.mod {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.gfg-root {
+    width : 100%;
+    height : auto;
+    position : relative;
+    overflow : hidden;
+    text-align : center;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 0;
+}
+
+.gfg-title {
+    font-size: 20px;
+    font-weight : bold;
+    color : #337ab7;
+
+    overflow : hidden;
+    white-space : nowrap;
+    padding-left: 15px;
+    line-height : 2.4em;
+}
+
+.gfg-title a {
+    color : #337ab7;
+}
+
+.gfg-subtitle {
+    font-size: 16px;
+    font-weight : bold;
+    color : #337ab7;
+
+    line-height : 1.4em;
+    overflow : hidden;
+    white-space : nowrap;
+    margin-bottom : 5px;
+}
+
+.gfg-subtitle a {
+    color : #337ab7;
+}
+
+.gfg-entry {
+
+    width : 100%;
+    height : 6.9em;
+    position : relative;
+    overflow : hidden;
+    text-align : left;
+    margin-top : 3px;
+}
+
+/* To allow correct behavior for overlay */
+.gfg-root .gfg-entry .gf-result {
+    position : relative;
+
+    width : auto;
+    height : 100%;
+    padding-left : 20px;
+    padding-right : 5px;
+}
+
+.gfg-list {
+    position : relative;
+    overflow : hidden;
+    text-align : left;
+    margin-bottom : 5px;
+}
+
+.gfg-listentry {
+    line-height : 2.8em;
+    overflow : hidden;
+    white-space : nowrap;
+    text-overflow : ellipsis;
+    -o-text-overflow : ellipsis;
+    padding-left : 15px;
+    padding-right : 5px;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
+.gfg-listentry-odd {
+    background-color : #f2f2f2;
+}
+
+.gfg-listentry-even {
+    background-color : white;
+}
+
+.gfg-listentry-highlight { 
+    background-color : #bbddff;
+}
+
+/*
+ * FeedControl customizations.
+ */
+
+.gfg-root .gfg-entry .gf-result .gf-title {
+    font-size: 16px;
+    line-height : 1.5em;
+    overflow : hidden;
+    white-space : nowrap;
+    text-overflow : ellipsis;
+    -o-text-overflow : ellipsis;
+    margin-bottom : 2px;
+}
+
+.gfg-root .gfg-entry .gf-result .gf-snippet {
+    height : 3.6em;
+    color: #000000;
+    margin-top : 3px;
+}
+
+.newstab {
+    background-color: #f2f2f2;
+    background-image: url("../img/news.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.eventcontent {
+    font-family: sans-serif;
+}
+
+/*Added by Azi to allow the sign up table to be in right form and position*/
+.signup_table {
+    text-align: left;
+    margin: 15px;
+    padding: 25px;
+    background-color: #ffcc99;
+}
+
+.second_div {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://themominmemd.files.wordpress.com/2014/09/bigstock-two-happy-little-girls-kids-ha-38818120.jpg");
+}
+
+.signup_MessageBox{
+    text-align: left;
+    color: black;
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+
+.hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+/*Added by Azi for Login elements to be at the right positions*/
+.Login_table {
+    text-align: left;
+    margin: 15px;
+    padding: 25px;
+    background-color: #66ccff;
+
+}
+.filed_color{
+    color: white;
+}
+.Login_second_div {
+    background-position: center;
+    background-size: cover;
+    background-image: url("http://cde.3.elcomercio.pe/ima/0/1/1/2/8/1128589.jpg");
+
+}
+/*Added by Azi for the user_diary page*/
+.user_diary_table {
+    text-align: left;
+    padding: 15px;
+    background-color:#ffffff;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.user_diary_symptom{
+    text-align: left;
+    padding: 15px;
+    background-color:#ffffff;
+    border: 1px solid black;
+    margin-right: 320px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.form-control {
+    width: auto; 
+    margin: 5px
+}
+
+.logopic {
+    background-image: url("img/logo.png");
+    background-position: center;
+    background-size: cover;
+}
